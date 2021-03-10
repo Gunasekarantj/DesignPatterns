@@ -8,7 +8,7 @@ import java.io.IOException;
 import java.io.InputStreamReader;
 
 public class GenerateBill {
-    public static void main(String args[]) throws IOException, IOException {
+    public static void main(String args[]) throws IOException{
         GetPlanFactory planFactory = new GetPlanFactory();
 
         System.out.print("Enter the name of plan for which the bill will be generated: ");
@@ -24,5 +24,6 @@ public class GenerateBill {
         System.out.print("Bill amount for "+planName+" of  "+units+" units is: ");
         p.getRate();
         p.calculateBill(units);
+        System.out.println("Bye");
     }
 }
