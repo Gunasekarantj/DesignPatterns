@@ -1,13 +1,22 @@
-package DesignPatterns.FactoryPattern.BillGeneration;
+package DesignPatterns.CreationalPattern.FactoryPattern.BillGeneration;
 
-import DesignPatterns.FactoryPattern.Factory.GetPlanFactory;
-import DesignPatterns.FactoryPattern.Parent.Plan;
+import DesignPatterns.CreationalPattern.FactoryPattern.Factory.GetPlanFactory;
+import DesignPatterns.CreationalPattern.FactoryPattern.Parent.Plan;
 
 import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
 
+/**
+ * The type Generate bill.
+ */
 public class GenerateBill {
+    /**
+     * Main.
+     *
+     * @param args the args
+     * @throws IOException the io exception
+     */
     public static void main(String args[]) throws IOException {
         GetPlanFactory planFactory = new GetPlanFactory();
 
