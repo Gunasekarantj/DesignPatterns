@@ -1,8 +1,8 @@
-package DesignPatterns.Creational.AbstractFactory.ClientCode;
+package DesignPatterns.Creational.abstractFactory.ClientCode;
 
-import DesignPatterns.Creational.AbstractFactory.AbstractFactory.*;
-import DesignPatterns.Creational.AbstractFactory.AbstractProducts.*;
-import DesignPatterns.Creational.AbstractFactory.ConcreteFactory.*;
+import DesignPatterns.Creational.abstractFactory.AbstractFactory.*;
+import DesignPatterns.Creational.abstractFactory.AbstractProducts.*;
+import DesignPatterns.Creational.abstractFactory.ConcreteFactory.*;
 
 public class MagicalToyFactory{
     public static void main(String[] args){

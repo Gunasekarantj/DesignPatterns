@@ -1,6 +1,6 @@
-package DesignPatterns.Creational.AbstractFactory.AbstractFactory;
+package DesignPatterns.Creational.abstractFactory.AbstractFactory;
 
-import DesignPatterns.Creational.AbstractFactory.AbstractProducts.*;
+import DesignPatterns.Creational.abstractFactory.AbstractProducts.*;
 
 public interface ForestCreaturesFactory{
     TeddyBear createTeddyBear();

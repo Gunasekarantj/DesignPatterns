@@ -1,8 +1,8 @@
-package DesignPatterns.Creational.AbstractFactory.ConcreteFactory;
+package DesignPatterns.Creational.abstractFactory.ConcreteFactory;
 
-import DesignPatterns.Creational.AbstractFactory.AbstractFactory.*;
-import DesignPatterns.Creational.AbstractFactory.AbstractProducts.*;
-import DesignPatterns.Creational.AbstractFactory.ConcreteProducts.*;
+import DesignPatterns.Creational.abstractFactory.AbstractFactory.*;
+import DesignPatterns.Creational.abstractFactory.AbstractProducts.*;
+import DesignPatterns.Creational.abstractFactory.ConcreteProducts.*;
 
 public class ForestCreaturesMagicFactory implements ForestCreaturesFactory{
     public TeddyBear createTeddyBear(){

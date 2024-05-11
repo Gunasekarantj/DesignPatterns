@@ -1,6 +1,6 @@
-package DesignPatterns.Creational.AbstractFactory.ConcreteProducts;
+package DesignPatterns.Creational.abstractFactory.ConcreteProducts;
 
-import DesignPatterns.Creational.AbstractFactory.AbstractProducts.*;
+import DesignPatterns.Creational.abstractFactory.AbstractProducts.*;
 
 public class FlyingToyDragon implements ToyDragon{
     public void fly(){
